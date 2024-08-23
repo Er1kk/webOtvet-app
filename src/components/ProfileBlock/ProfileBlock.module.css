@@ -1,0 +1,74 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .userSection {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        .avatar {
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+        }
+
+        .userInfo {
+            .userName {
+                font-weight: 600;
+            }
+
+            .userUID {
+                font-size: 12px;
+                opacity: 0.8;
+            }
+        }
+    }
+}
+
+.body {
+    padding-block: 24px;
+
+    .balanceSection {
+        display: flex;
+        justify-content: space-around;
+
+        .balance {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            color: rgb(0 0 0 / 70%);
+
+            .amount {
+                font-size: 16px;
+                font-weight: 600;
+                color: #000;
+            }
+        }
+    }
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    .btn {
+        border: none;
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        font-weight: 600;
+        font-size: 15px;
+        color: var(--color-primary);
+    }
+}
+
+.optionBtn {
+    border: none;
+    background: transparent;
+}

@@ -1,0 +1,101 @@
+.groupsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    .group {
+        border: 1px solid #444444;
+        border-radius: 12px;
+        padding: 16px;
+        color: #000;
+        font-size: 15px;
+        transition: background .3s ease;
+
+        &:hover {
+            background: #e3ebf5;
+        }
+    }
+}
+
+.question {
+    margin-bottom: 20px;
+    padding: 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.questionLabel {
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.optionLabel {
+    display: block;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.radioInput {
+    margin-right: 10px;
+}
+
+.select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.checkboxGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkboxLabel {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.checkboxInput {
+    margin-right: 10px;
+}
+
+.checkboxText {
+    font-size: 14px;
+}
+
+.checkboxLabel:hover .checkboxText {
+    color: #2196F3;
+}
+
+.checkboxInput:checked+.checkboxText {
+    font-weight: bold;
+}
+
+.option {
+    padding: 5px;
+}
+
+.optionLabel:hover,
+.option:hover {
+    background-color: #f0f0f0;
+}
+
+.radioInput:checked+span {
+    font-weight: 700;
+    color: #2196f3;
+}
+
+.requiredTitle {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    font-weight: 600;
+}

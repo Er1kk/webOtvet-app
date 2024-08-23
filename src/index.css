@@ -1,0 +1,112 @@
+@import '@fontsource/inter';
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+@import '@fontsource/inter/900.css';
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 16px;
+  font-weight: 400;
+  font-size: 14px;
+
+  color: #000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*::-webkit-scrollbar {
+  display: none!important;
+}
+
+a {
+  font-weight: 500;
+  color: #1485FF;
+  text-decoration: inherit;
+  cursor: pointer;
+}
+
+a:hover {
+  color: rgb(91, 167, 248);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow: hidden;
+  background: #F1F1F1;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding-top: 16px;
+  padding-bottom: 80px;
+  overflow-y: auto;
+  padding-inline: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.required-page {
+  overflow-y: auto;
+  height: 100%;
+  padding: 16px;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: #fff;
+  display: flex;
+  border-top: var(--card-box-border);
+  justify-content: space-around;
+  align-items: center;
+  padding: 6px;
+}
+
+.page-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  margin: 0 auto;
+}
+
+.card-box {
+  background: var(--card-box-background);
+  box-shadow: var(--card-box-shadow);
+  border-radius: var(--card-box-border-radius);
+  border: var(--card-box-border);
+  padding: var(--card-box-padding);
+}
+
+*,
+::after,
+::before {
+  --card-box-background: #fff;
+  --card-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, .03);
+  --card-box-border-radius: 12px;
+  --card-box-border: 1px solid #f1f1f4;
+  --card-box-padding: 16px;
+
+  --color-primary: #1485FF;
+
+  --info-box-background-gradient-1: linear-gradient(92.36deg,#164ed0 1.15%,#f13870 100%);
+  --info-box-background-gradient-2: linear-gradient(91.9deg, #164ed0 34.09%, #f13870 100%);
+}

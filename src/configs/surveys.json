@@ -1,0 +1,39 @@
+{
+    "surveys": [
+        {
+            "id": "1",
+            "title": "Тестовый опрос",
+            "price": "11",
+            "priceType": "RUB",
+            "link": ""
+        },
+        {
+            "id": "2",
+            "title": "Второй опрос",
+            "price": "20",
+            "priceType": "BONUS",
+            "link": ""
+        },
+        {
+            "id": "3",
+            "title": "Третий опрос",
+            "price": "30",
+            "priceType": "RUB",
+            "link": ""
+        },
+        {
+            "id": "4",
+            "title": "Четвертый опрос",
+            "price": "50",
+            "priceType": "RUB",
+            "link": ""
+        },
+        {
+            "id": "5",
+            "title": "Пятый опрос",
+            "price": "104",
+            "priceType": "BONUS",
+            "link": ""
+        }
+    ]
+}

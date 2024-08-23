@@ -1,0 +1,22 @@
+.header {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.body {
+    .items {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+
+            .itemAmount {
+                font-weight: 600;
+            }
+        }
+    }
+}
